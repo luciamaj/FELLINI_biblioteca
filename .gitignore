@@ -1,0 +1,11 @@
+.DS_STORE
+*/dist/
+*/videos/
+*/node_modules/
+*/fondo_fotografico_rfid/assets/
+*/fondo_fotografico_loop/assets/
+web_app/assets/
+web_app_loop/assets/
+web_app/src/assets/
+web_app_loop/src/assets/
+assets/

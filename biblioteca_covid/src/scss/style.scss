@@ -1,0 +1,35 @@
+#myVideo {
+    position: absolute; 
+    right: 0; 
+    bottom: 0;
+    width: 100vw;
+    height: 100vh;
+    object-fit: contain;
+}
+
+.container-video {
+    width: 100vw;
+    height: 100vh;
+    position: relative;
+    background-color: black;
+}
+
+#openVideo {
+    position: absolute; 
+    right: 0; 
+    bottom: 0;
+    width: 100vw;
+    height: 100vh;
+    object-fit: contain;
+}
+
+#overlay {
+    background-color: #000;
+    position: absolute; 
+    right: 0; 
+    bottom: 0;
+    width: 100vw;
+    height: 100vh;
+    opacity: 0;
+    visibility: visible;
+}
