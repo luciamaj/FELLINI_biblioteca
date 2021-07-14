@@ -1,7 +1,7 @@
 <template>
   <div class="container-video">
     <video id="openVideo" preload="auto" hwz="on">
-      <source :src="'../assets/schede/amarcord1.mp4'" type="video/mp4">
+      <source :src="dataApp[0].src" type="video/mp4">
     </video>
     <video hwz="on" preload="auto" id="myVideo" autoplay muted>
       <source :src="'../assets/loop.mp4'" type="video/mp4">
@@ -90,18 +90,6 @@ export default {
                         this.isPlayingLoop = true;
                       } else {
                         console.log("sono già nel loop");
-                      }
-                    } else if(obj.velocity != null) {
-                      console.log('dovrei cambiare la velocità');
-
-                      if (obj.velocity == 1) {
-                        this.playbackRate = obj.playbackRate;
-                        this.videoOpen.get(0).playbackRate = this.playbackRate;
-                        console.log('veloce');
-                      } else if (obj.velocity == 0) {
-                        this.playbackRate = obj.playbackRate;
-                        this.videoOpen.get(0).playbackRate = this.playbackRate;
-                        console.log('lento');
                       }
                     } else {
                       if (this.src != obj.src) {

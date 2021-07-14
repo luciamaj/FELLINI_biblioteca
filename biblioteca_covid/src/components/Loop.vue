@@ -1,7 +1,7 @@
 <template>
   <div class="container-video">
     <video hwz="on" preload="auto" id="myVideo">
-      <source :src="dataApp[0]" type="video/mp4">
+      <source :src="dataApp[0].src" type="video/mp4">
     </video>
     <div id="overlay"></div>
     <Tsunami :isVisible="false" @tsunamiStarted="freeze" @tsunamiEnded="restart"/>

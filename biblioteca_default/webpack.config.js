@@ -5,8 +5,8 @@ const ExtractTextPlugin = require("extract-text-webpack-plugin");
 module.exports = {
   entry: './src/main.js',
   output: {
-    path: path.resolve(__dirname, './fondo_fotografico_rfid'),
-    publicPath: '/fondo_fotografico_rfid/',
+    path: path.resolve(__dirname, './biblioteca_rfid'),
+    publicPath: '/biblioteca_rfid/',
     filename: 'layout/build.js'
   },
   module: {
@@ -36,7 +36,7 @@ module.exports = {
         loader: 'file-loader',
         options: {
           context: path.resolve(__dirname, 'src'),
-          name: '../fondo_fotografico_rfid/assets/[name].[ext]'
+          name: '../biblioteca_rfid/assets/[name].[ext]'
         }
       },
       { 
