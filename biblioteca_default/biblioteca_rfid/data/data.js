@@ -17,5 +17,6 @@ let data = {
         {"ordine": 14,"code": 78, "src": "../assets/schede/14.mp4", "isLoop": false}, // N
         {"ordine": 15,"code": 79, "src": "../assets/schede/15.mp4", "isLoop": false}, // O
         {"ordine": 16,"code": 80, "src": "../assets/schede/16.mp4", "isLoop": false}, // P
-    ]
+    ],
+    "tsunami":{"src":"../assets/TZUNAMI_biblioteca_1-2.mp4"}
 }

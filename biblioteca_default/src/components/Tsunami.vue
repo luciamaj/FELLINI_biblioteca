@@ -1,7 +1,7 @@
 <template>
   <div class="container-tsunami" :class="{ 'is-invisibile': !isVisible }">
     <video hwz="on" preload="auto" id="videoTsunami">
-      <source :src="'../assets/TZUNAMI_biblioteca_1-2.mp4'" type="video/mp4">
+      <source :src="dataApp.src" type="video/mp4">
     </video>
   </div>
 </template>
@@ -72,8 +72,8 @@ export default {
     },
     computed: {
       dataApp() {
-        console.log(this.$store.getters.data.timeline);
-        return this.$store.getters.data.timeline;
+        console.log(this.$store.getters.data.tsunami);
+        return this.$store.getters.data.tsunami;
       }
     },
     mounted() {

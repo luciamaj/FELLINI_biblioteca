@@ -31635,8 +31635,8 @@ let $ = __WEBPACK_IMPORTED_MODULE_0_jquery___default.a;
   },
   computed: {
     dataApp() {
-      console.log(this.$store.getters.data.timeline);
-      return this.$store.getters.data.timeline;
+      console.log(this.$store.getters.data.tsunami);
+      return this.$store.getters.data.tsunami;
     }
   },
   mounted() {
@@ -42105,7 +42105,7 @@ __WEBPACK_IMPORTED_MODULE_0__gsap_core_js__["x" /* gsap */].registerPlugin(CSSPl
 "use strict";
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__babel_loader_node_modules_vue_loader_lib_selector_type_script_index_0_Tsunami_vue__ = __webpack_require__(25);
 /* unused harmony namespace reexport */
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1__node_modules_vue_loader_lib_template_compiler_index_id_data_v_ce9fe5c0_hasScoped_false_buble_transforms_node_modules_vue_loader_lib_selector_type_template_index_0_Tsunami_vue__ = __webpack_require__(63);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1__node_modules_vue_loader_lib_template_compiler_index_id_data_v_33111909_hasScoped_false_buble_transforms_node_modules_vue_loader_lib_selector_type_template_index_0_Tsunami_vue__ = __webpack_require__(63);
 function injectStyle (ssrContext) {
   __webpack_require__(61)
 }
@@ -42125,7 +42125,7 @@ var __vue_scopeId__ = null
 var __vue_module_identifier__ = null
 var Component = normalizeComponent(
   __WEBPACK_IMPORTED_MODULE_0__babel_loader_node_modules_vue_loader_lib_selector_type_script_index_0_Tsunami_vue__["a" /* default */],
-  __WEBPACK_IMPORTED_MODULE_1__node_modules_vue_loader_lib_template_compiler_index_id_data_v_ce9fe5c0_hasScoped_false_buble_transforms_node_modules_vue_loader_lib_selector_type_template_index_0_Tsunami_vue__["a" /* default */],
+  __WEBPACK_IMPORTED_MODULE_1__node_modules_vue_loader_lib_template_compiler_index_id_data_v_33111909_hasScoped_false_buble_transforms_node_modules_vue_loader_lib_selector_type_template_index_0_Tsunami_vue__["a" /* default */],
   __vue_template_functional__,
   __vue_styles__,
   __vue_scopeId__,
@@ -42146,7 +42146,7 @@ var content = __webpack_require__(62);
 if(typeof content === 'string') content = [[module.i, content, '']];
 if(content.locals) module.exports = content.locals;
 // add the styles to the DOM
-var update = __webpack_require__(20)("7b41151f", content, true, {});
+var update = __webpack_require__(20)("1df02d78", content, true, {});
 
 /***/ }),
 /* 62 */
@@ -42167,7 +42167,7 @@ exports.push([module.i, "#videoTsunami{position:absolute;right:0;bottom:0;width:
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
-var render = function () {var _vm=this;var _h=_vm.$createElement;var _c=_vm._self._c||_h;return _c('div',{staticClass:"container-tsunami",class:{ 'is-invisibile': !_vm.isVisible }},[_c('video',{attrs:{"hwz":"on","preload":"auto","id":"videoTsunami"}},[_c('source',{attrs:{"src":'../assets/TZUNAMI_biblioteca_1-2.mp4',"type":"video/mp4"}})])])}
+var render = function () {var _vm=this;var _h=_vm.$createElement;var _c=_vm._self._c||_h;return _c('div',{staticClass:"container-tsunami",class:{ 'is-invisibile': !_vm.isVisible }},[_c('video',{attrs:{"hwz":"on","preload":"auto","id":"videoTsunami"}},[_c('source',{attrs:{"src":_vm.dataApp.src,"type":"video/mp4"}})])])}
 var staticRenderFns = []
 var esExports = { render: render, staticRenderFns: staticRenderFns }
 /* harmony default export */ __webpack_exports__["a"] = (esExports);
