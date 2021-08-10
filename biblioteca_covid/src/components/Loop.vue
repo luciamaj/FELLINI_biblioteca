@@ -68,7 +68,7 @@ export default {
             if (this.currentIndex < this.dataApp.length - 1) {
               this.currentIndex++;
             } else {
-              print("dovrei ripartire");
+              console.log("dovrei ripartire");
               this.currentIndex = 0;
             }
 

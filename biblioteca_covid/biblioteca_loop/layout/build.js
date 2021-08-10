@@ -27583,7 +27583,7 @@ let $ = __WEBPACK_IMPORTED_MODULE_0_jquery___default.a;
         if (this.currentIndex < this.dataApp.length - 1) {
           this.currentIndex++;
         } else {
-          print("dovrei ripartire");
+          console.log("dovrei ripartire");
           this.currentIndex = 0;
         }
 
@@ -40490,7 +40490,7 @@ if (inBrowser && window.Vue) {
 "use strict";
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__babel_loader_node_modules_vue_loader_lib_selector_type_script_index_0_Loop_vue__ = __webpack_require__(23);
 /* unused harmony namespace reexport */
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1__node_modules_vue_loader_lib_template_compiler_index_id_data_v_f7f5aede_hasScoped_false_buble_transforms_node_modules_vue_loader_lib_selector_type_template_index_0_Loop_vue__ = __webpack_require__(63);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1__node_modules_vue_loader_lib_template_compiler_index_id_data_v_51ce3191_hasScoped_false_buble_transforms_node_modules_vue_loader_lib_selector_type_template_index_0_Loop_vue__ = __webpack_require__(63);
 var normalizeComponent = __webpack_require__(9)
 /* script */
 
@@ -40507,7 +40507,7 @@ var __vue_scopeId__ = null
 var __vue_module_identifier__ = null
 var Component = normalizeComponent(
   __WEBPACK_IMPORTED_MODULE_0__babel_loader_node_modules_vue_loader_lib_selector_type_script_index_0_Loop_vue__["a" /* default */],
-  __WEBPACK_IMPORTED_MODULE_1__node_modules_vue_loader_lib_template_compiler_index_id_data_v_f7f5aede_hasScoped_false_buble_transforms_node_modules_vue_loader_lib_selector_type_template_index_0_Loop_vue__["a" /* default */],
+  __WEBPACK_IMPORTED_MODULE_1__node_modules_vue_loader_lib_template_compiler_index_id_data_v_51ce3191_hasScoped_false_buble_transforms_node_modules_vue_loader_lib_selector_type_template_index_0_Loop_vue__["a" /* default */],
   __vue_template_functional__,
   __vue_styles__,
   __vue_scopeId__,

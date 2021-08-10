@@ -1,3 +1,4 @@
+//codifica dei tag LL
 let data = {
     "timeline": [
         {"code": 32, "src": "../assets/loop.mp4", "isLoop": true }, // blank space 
