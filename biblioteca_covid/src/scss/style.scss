@@ -1,3 +1,10 @@
+body{
+    overflow: hidden;
+    cursor: none;
+    user-select: none;
+    overscroll-behavior: none;
+
+}
 #myVideo {
     position: absolute; 
     right: 0; 

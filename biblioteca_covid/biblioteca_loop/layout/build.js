@@ -36352,7 +36352,7 @@ exports.i(__webpack_require__(45), "");
 exports.i(__webpack_require__(50), "");
 
 // module
-exports.push([module.i, "#myVideo{position:absolute;right:0;bottom:0;width:100vw;height:100vh;object-fit:contain}.container-video{width:100vw;height:100vh;position:relative;background-color:#000}#openVideo{object-fit:contain}#openVideo,#overlay{position:absolute;right:0;bottom:0;width:100vw;height:100vh}#overlay{background-color:#000;opacity:0;visibility:visible}", ""]);
+exports.push([module.i, "body{overflow:hidden;cursor:none;user-select:none;overscroll-behavior:none}#myVideo{position:absolute;right:0;bottom:0;width:100vw;height:100vh;object-fit:contain}.container-video{width:100vw;height:100vh;position:relative;background-color:#000}#openVideo{object-fit:contain}#openVideo,#overlay{position:absolute;right:0;bottom:0;width:100vw;height:100vh}#overlay{background-color:#000;opacity:0;visibility:visible}", ""]);
 
 // exports
 
